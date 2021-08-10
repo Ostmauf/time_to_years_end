@@ -4,7 +4,7 @@ const mainContent = document.getElementById("main-content");
 //making variables for the current day and the last day of the year.
 let currentDate = new Date();
 const lastDate = new Date("12/31/2021");
-//taking the dates minus each other.
+//counts the dates and changes from ms to days.
 
 inDays = Math.floor((lastDate - currentDate) / (1000 * 3600 * 24)) + " dagar"
 
