@@ -1,5 +1,5 @@
 ///making constant variables for id´s from html.
-const mainContent = document.getElementById("main-content");
+const mainContent = document.getElementById("main-chat-window");
 
 //making variables for the current day and the last day of the year.
 let currentDate = new Date();
